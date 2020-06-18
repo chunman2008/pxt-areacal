@@ -16,4 +16,10 @@ namespace areacal {
     export function ledOfRectangle(length: number, width:number): void {
         basic.showNumber(length*width)
     }
+	
+	    //% blockId="ledOfTriangle" block="show area of Triangles base %base|width %base"
+    //% blockGap=2 weight=1
+    export function ledOfRectangle(base: number, height:number): void {
+        basic.showNumber(0.5*base*height)
+    }
 }
