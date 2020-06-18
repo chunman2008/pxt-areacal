@@ -19,7 +19,7 @@ namespace areacal {
 	 /**
     * 
     */
-	//% blockId="ledOfTriangle" block="show area of Triangles base %base|width %base"
+	//% blockId="ledOfTriangle" block="show area of Triangles base %base|height %height"
     //% blockGap=3 weight=2
     export function ledOfTriangle(base: number, height:number): void {
         basic.showNumber(0.5*base*height)
